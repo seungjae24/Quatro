@@ -52,11 +52,11 @@ if(QUATRO_DEBUG)
 endif()
 
 ### output as catkin package
-find_package(catkin REQUIRED)
-catkin_package( #this automatically adds/installs the results of build
-  INCLUDE_DIRS include
-  LIBRARIES ${PROJECT_NAME}
-)
+## find_package(catkin REQUIRED)
+## catkin_package( #this automatically adds/installs the results of build
+##  INCLUDE_DIRS include
+##  LIBRARIES ${PROJECT_NAME}
+## )
 
 ### get packages' headers
 include_directories(
